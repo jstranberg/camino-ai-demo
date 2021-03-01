@@ -1,0 +1,28 @@
+{
+  "name": "camino-ai",
+  "version": "1.0.0",
+  "description": "Camino ai demo test",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "camino",
+    "demo",
+    "automation",
+    "BDD"
+  ],
+  "author": "Seijin Tranberg",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-xpath": "^1.6.2",
+    "prettier": "^2.2.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
